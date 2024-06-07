@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'space-semibold';
+    src: url('../src/asset/font/Space_Grotesk/static/SpaceGrotesk-SemiBold.ttf') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-bold';
+    src: url('../src/asset/font/Space_Grotesk/static/SpaceGrotesk-Bold.ttf') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-regular';
+    src: url('../src/asset/font/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-light';
+    src: url('../src/asset/font/Space_Grotesk/static/SpaceGrotesk-Light.ttf') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+.font-spacesemibold {
+    font-family: 'space-semibold';
+}
+
+.font-spacebold {
+    font-family: 'space-bold';
+}
+
+.font-spaceregular {
+    font-family: 'space-regular';
+}
+
+.font-spacelight {
+    font-family: 'space-light';
+};
+
